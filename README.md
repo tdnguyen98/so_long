@@ -18,7 +18,7 @@ D	Move Right
 |      **`S`**	 | Move Down         |
 |   **`A`**	 | Move Left     |
 |      **`D`**	 | Move Right      |
-| **`1`**  / **`2`** | Use Spell 1 (if scroll & staff)    |
+| **`1`**  / **`2`** | Use Spells (if scroll & staff)    |
 | **`ESC`** | Leave Game               |
 
 ## ⚙️ Installation
