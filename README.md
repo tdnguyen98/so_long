@@ -23,7 +23,7 @@ D	Move Right
 
 ## ⚙️ Installation
 
-To play the game, follow these simple steps:
+To play the game, follow these steps:
 
 ### 1. Clone the repository
 ```bash
