@@ -1,5 +1,7 @@
 # Program name
 so_long
+*.a
 
 #obj folder
 obj
+*.o
