@@ -6,7 +6,7 @@
 /*   By: thenguye <thenguye@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/25 14:19:02 by thenguye          #+#    #+#             */
-/*   Updated: 2024/04/26 13:01:34 by thenguye         ###   ########.fr       */
+/*   Updated: 2025/04/06 20:34:42 by thenguye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,4 +84,3 @@ void	is_char_valid(t_map *map, char c)
 	if (c != '0' && c != 'X' && c != '1' && c != 'c' && c != 'e' && c != 'p')
 		map_error(map, map->error + 6);
 }
-

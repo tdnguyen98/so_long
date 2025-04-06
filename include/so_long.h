@@ -6,7 +6,7 @@
 /*   By: thenguye <thenguye@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 13:57:39 by thenguye          #+#    #+#             */
-/*   Updated: 2025/04/01 20:04:21 by thenguye         ###   ########.fr       */
+/*   Updated: 2025/04/06 20:35:16 by thenguye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -173,7 +173,6 @@ typedef struct s_trap
 	int				dir;
 	struct s_trap	*next;
 }	t_trap;
-
 
 /*
 * block a to b are for all different position of wall

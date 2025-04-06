@@ -6,7 +6,7 @@
 /*   By: thenguye <thenguye@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 12:59:11 by thenguye          #+#    #+#             */
-/*   Updated: 2024/04/26 12:59:57 by thenguye         ###   ########.fr       */
+/*   Updated: 2025/04/06 20:34:18 by thenguye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@ int	main(int argc, char *argv[])
 	init_player(&data);
 	init_data_ending(&data);
 	data.map = get_map(&map, argv);
-	// print_map(&data.map);
 	data.player->pos[0] = data.map.player_pos[0] * 256;
 	data.player->pos[1] = data.map.player_pos[1] * 256;
 	tick(&data);

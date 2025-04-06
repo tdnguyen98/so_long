@@ -6,7 +6,7 @@
 /*   By: thenguye <thenguye@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/26 10:31:23 by thenguye          #+#    #+#             */
-/*   Updated: 2024/03/19 13:38:46 by thenguye         ###   ########.fr       */
+/*   Updated: 2025/04/06 20:34:57 by thenguye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	draw_exit(t_data *data)
 {
 	if (aabb_exit(data, (data->player->pos[0] - 512),
 			(data->player->pos[1] - 512)) && data->map.collectible <= 0)
-	{	
+	{
 		if (data->ending[0] == 0)
 			data->ending[0] = 1;
 		data->ending[2] = 1;
