@@ -18,12 +18,16 @@ D	Move Right
 |      **`S`**	 | Move Down         |
 |   **`A`**	 | Move Left     |
 |      **`D`**	 | Move Right      |
-| **`1`**  / **`2`** | Use Spell 1 (if scroll & staff)    |
+| **`1`**  / **`2`** | Use Spells (if scrolls & staff)    |
 | **`ESC`** | Leave Game               |
+
+#### Spells
+- 1 is the attack spell
+- 2 is a life regeneration spell
 
 ## ⚙️ Installation
 
-To play the game, follow these simple steps:
+To play the game, follow these steps:
 
 ### 1. Clone the repository
 ```bash
